@@ -1,0 +1,11 @@
+.tableHeading th{
+    font-size: 1.2rem;
+}
+
+table,td,th{
+    border: 1px solid grey;
+}
+
+.title{
+    text-align: center;
+}

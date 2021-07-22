@@ -1,0 +1,53 @@
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:rgb(0, 225, 255);
+    height: 100px;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+    margin: 15px;
+    font-size: 1.2em;    
+}
+
+a:hover{
+    border-bottom: 2px solid orange;
+ 
+}
+
+.burgerMenu{
+    display:none
+}
+
+.active{
+   
+    
+    font-size: 1.5rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-bottom: 2px solid orange;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width:900px){
+    .navbar{
+        display:flex;
+    }
+    .bar{
+        display:none;
+    }
+    .burgerMenu{
+        display:flex;
+    }
+    .drop{
+        width: 500px;
+        height: 500px;
+        background:red
+    }
+}
